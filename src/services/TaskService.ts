@@ -34,9 +34,7 @@ export interface TaskItem {
 }
 
 export default class TaskService {
-  static updateTask(updateTask: any) {
-    throw new Error('Method not implemented.');
-  }
+  
   readonly baseUrl: string = '/api/v1/projects';
   static getTask: any;
 
